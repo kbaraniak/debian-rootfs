@@ -3,4 +3,4 @@
 
 ✅ Updated Debian version download from: https://github.com/kbaraniak/debian-rootfs/releases/latest
 
-📑 Installed software on this release: https://github.com/kbaraniak/debian-rootfs/PACKAGES
+📑 Installed software on this release: https://github.com/kbaraniak/debian-rootfs/blob/main/PACKAGES
