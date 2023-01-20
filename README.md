@@ -4,3 +4,8 @@
 ✅ Updated Debian version download from: https://github.com/kbaraniak/debian-rootfs/releases/latest
 
 📑 Installed software on this release: https://github.com/kbaraniak/debian-rootfs/blob/main/PACKAGES
+
+## How to use ?
+1. Extract archive using tar (Example: `tar -xzvf file_name.tar.xz`)
+2. Open Terminal & type ``chroot extracted_folder /bin/bash``
+3. Well Done. Enjoy 😊!
