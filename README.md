@@ -7,5 +7,8 @@
 
 ## How to use ?
 1. Extract archive using tar (Example: `tar -xzvf file_name.tar.xz`)
-2. Open Terminal & type ``chroot extracted_folder /bin/bash``
-3. Well Done. Enjoy 😊!
+2. Mount required dirs as root user `mount -t proc /proc proc/ &&
+                          mount --rbind /sys sys/ &&
+                          mount --rbind /dev dev/`
+3. Open Terminal & chroot to rootfs ``chroot extracted_rootfs_folder /bin/bash``
+4. Well Done ! Enjoy 😊
