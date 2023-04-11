@@ -11,6 +11,7 @@
 - Create required directories `mkdir proc sys dev`
 - Mount required dirs as root user `mount -t proc /proc proc/ &&
                           mount --rbind /sys sys/ &&
-                          mount --rbind /dev dev/`
+                          mount --rbind /dev dev/ &&
+                          mount --rbind /tmp tmp/`
 3. Open Terminal & chroot to rootfs as root user ``chroot extracted_rootfs_folder /bin/bash``
 4. Well Done ! Enjoy 😊
