@@ -7,7 +7,9 @@
 
 ## How to use ?
 1. Extract archive using tar (Example: `tar -xvf debian-amd64*.tar.xz -C debian-rootfs/`) or use [auto-extract.sh](https://raw.githubusercontent.com/kbaraniak/debian-rootfs/main/auto-extract.sh)
-2. Mount required dirs as root user `mount -t proc /proc proc/ &&
+2. Create & Mount Dirs (device params)
+- Create required directories `mkdir proc sys dev`
+- Mount required dirs as root user `mount -t proc /proc proc/ &&
                           mount --rbind /sys sys/ &&
                           mount --rbind /dev dev/`
 3. Open Terminal & chroot to rootfs ``chroot extracted_rootfs_folder /bin/bash``
